@@ -1,6 +1,6 @@
 import { Grid, } from '@mui/material'
 import React from 'react'
-import { styles } from '../styless';
+import { styles } from '../../Styles/styles';
 import YourOrder from '../YourOrder/YourOrder';
 
 

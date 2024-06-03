@@ -1,6 +1,6 @@
 import { Grid, Typography, TextField, InputAdornment, Button, Paper } from '@mui/material'
 import React from 'react'
-import { styles } from '../styless';
+import { styles } from '../../Styles/styles';
 
 export default function OrderSummary({subtotal,tax,ship,total}) {
 

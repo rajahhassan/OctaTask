@@ -1,7 +1,7 @@
 import React from 'react';
 import Grid from '@mui/material/Grid';
 import { Box, Button, Typography } from '@mui/material';
-import { styles } from '../styless';
+import { styles } from '../../Styles/styles';
 import CloseIcon from '@mui/icons-material/Close';
 
 export default function ShoppingCart({ cartItems, setCartItems }) {

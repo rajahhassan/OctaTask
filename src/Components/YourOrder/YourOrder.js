@@ -1,6 +1,6 @@
 import { Grid, Paper, Typography, Box, Button } from '@mui/material'
 import React from 'react'
-import { styles } from '../styless'
+import { styles } from '../../Styles/styles'
 
 export default function YourOrder({ cartItems, subtotal, tax, ship, total }) {
     return (

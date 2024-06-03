@@ -2,6 +2,8 @@ import './App.css';
 import MainShoppingPage from './Components/Shopping/MainShoppingPage';
 import React, { useState } from 'react';
 import MainOrderPage from './Components/YourOrder/MainOrderPage';
+import OrderTab from './Components/Tabs/OrderTab';
+import YourReviews from './Components/ReviewsPage/YourReviews';
 
 function App() {
 
@@ -46,9 +48,10 @@ const [total,] = useState(2935);
 
   return (
     <div>
-     <MainShoppingPage cartItems={cartItems} setCartItems={setCartItems} subtotal={subtotal} tax={tax} ship={ship} total={total}/>
+     {/* <MainShoppingPage cartItems={cartItems} setCartItems={setCartItems} subtotal={subtotal} tax={tax} ship={ship} total={total}/> */}
      {/* <MainOrderPage cartItems={cartItems} setCartItems={setCartItems} subtotal={subtotal} tax={tax} ship={ship} total={total}/> */}
-
+     <OrderTab/>
+     {/* <YourReviews/> */}
     </div>
   );
 }
